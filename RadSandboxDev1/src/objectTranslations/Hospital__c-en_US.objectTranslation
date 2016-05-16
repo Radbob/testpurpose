@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hospital</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Hospitals</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter the Address --></help>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hospital Type --></label>
+        <name>Hospital_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dental hospital</masterLabel>
+            <translation><!-- Dental hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eye Hospital</masterLabel>
+            <translation><!-- Eye Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Hospital</masterLabel>
+            <translation><!-- General Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Speciality Hospital</masterLabel>
+            <translation><!-- Multi Speciality Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ortho Hospital</masterLabel>
+            <translation><!-- Ortho Hospital --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
