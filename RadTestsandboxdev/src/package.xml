@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AppMenu</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApprovalProcess</name>
+	</types>
+	<types>
+		<members>Case.Standard</members>
+		<members>Lead.Standard</members>
+		<name>AssignmentRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuthProvider</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CallCenter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Community</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>standard__AppLauncher</members>
+		<members>standard__Chatter</members>
+		<members>standard__Community</members>
+		<members>standard__Content</members>
+		<members>standard__Insights</members>
+		<members>standard__Marketing</members>
+		<members>standard__Platform</members>
+		<members>standard__Sales</members>
+		<members>standard__Service</members>
+		<members>standard__ServiceConsole</members>
+		<members>standard__Sites</members>
+		<members>standard__Work</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomApplicationComponent</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>AccountCleanInfo</members>
+		<members>AccountContactRole</members>
+		<members>Activity</members>
+		<members>Asset</members>
+		<members>AssistantProgress</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Case</members>
+		<members>CaseContactRole</members>
+		<members>Contact</members>
+		<members>ContactCleanInfo</members>
+		<members>ContentVersion</members>
+		<members>Contract</members>
+		<members>ContractContactRole</members>
+		<members>DandBCompany</members>
+		<members>DuplicateRecordItem</members>
+		<members>DuplicateRecordSet</members>
+		<members>Event</members>
+		<members>FeedItem</members>
+		<members>ForecastingCategoryMapping</members>
+		<members>Idea</members>
+		<members>Lead</members>
+		<members>LeadCleanInfo</members>
+		<members>Macro</members>
+		<members>MacroAction</members>
+		<members>MacroInstruction</members>
+		<members>Opportunity</members>
+		<members>OpportunityCompetitor</members>
+		<members>OpportunityContactRole</members>
+		<members>OpportunityLineItem</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>PartnerRole</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>Product2</members>
+		<members>Site</members>
+		<members>SocialPersona</members>
+		<members>Solution</members>
+		<members>StreamingChannel</members>
+		<members>Task</members>
+		<members>User</members>
+		<members>UserProvisioningRequest</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
+	</types>
+	<types>
+		<members>unfiled$public</members>
+		<members>unfiled$public/MarketingProductInquiryResponse</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+		<members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+		<members>unfiled$public/SalesNewCustomerEmail</members>
+		<members>unfiled$public/SupportCaseAssignmentNotification</members>
+		<members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+		<members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+		<members>unfiled$public/SupportCaseResponse</members>
+		<members>unfiled$public/SupportEscalatedCaseNotification</members>
+		<members>unfiled$public/SupportEscalatedCaseReassignment</members>
+		<members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+		<members>unfiled$public/SupportSelfServiceResetPassword</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>Case.Standard</members>
+		<name>EscalationRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Group</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
+		<members>Account-Account %28Marketing%29 Layout</members>
+		<members>Account-Account %28Sales%29 Layout</members>
+		<members>Account-Account %28Support%29 Layout</members>
+		<members>Account-Account Layout</members>
+		<members>Asset-Asset Layout</members>
+		<members>Campaign-Campaign Layout</members>
+		<members>CampaignMember-Campaign Member Page Layout</members>
+		<members>Case-Case %28Marketing%29 Layout</members>
+		<members>Case-Case %28Sales%29 Layout</members>
+		<members>Case-Case %28Support%29 Layout</members>
+		<members>Case-Case Layout</members>
+		<members>CaseClose-Close Case Layout</members>
+		<members>Contact-Contact %28Marketing%29 Layout</members>
+		<members>Contact-Contact %28Sales%29 Layout</members>
+		<members>Contact-Contact %28Support%29 Layout</members>
+		<members>Contact-Contact Layout</members>
+		<members>ContentVersion-Content Version Layout</members>
+		<members>Contract-Contract Layout</members>
+		<members>DandBCompany-D%26B Company Layout</members>
+		<members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+		<members>Event-Event Layout</members>
+		<members>FeedItem-Feed Item Layout</members>
+		<members>Global-Global Layout</members>
+		<members>Idea-Idea Layout</members>
+		<members>Lead-Lead %28Marketing%29 Layout</members>
+		<members>Lead-Lead %28Sales%29 Layout</members>
+		<members>Lead-Lead %28Support%29 Layout</members>
+		<members>Lead-Lead Layout</members>
+		<members>Macro-Macro Layout</members>
+		<members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+		<members>Opportunity-Opportunity %28Sales%29 Layout</members>
+		<members>Opportunity-Opportunity %28Support%29 Layout</members>
+		<members>Opportunity-Opportunity Layout</members>
+		<members>OpportunityLineItem-Opportunity Product Layout</members>
+		<members>Order-Order Layout</members>
+		<members>OrderItem-Order Product Layout</members>
+		<members>Pricebook2-Price Book Layout</members>
+		<members>PricebookEntry-Price Book Entry Layout</members>
+		<members>Product2-Product Layout</members>
+		<members>SocialPersona-Social Persona Layout</members>
+		<members>SocialPost-Social Post Layout</members>
+		<members>Solution-Solution Layout</members>
+		<members>Task-Task Layout</members>
+		<members>User-User Layout</members>
+		<members>UserProvAccount-User Provisioning Account Layout</members>
+		<members>UserProvisioningLog-User Provisioning Log Layout</members>
+		<members>UserProvisioningRequest-User Provisioning Request Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Letterhead</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PostTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
+		<members>ApexDevNet</members>
+		<name>RemoteSiteSetting</name>
+	</types>
+	<types>
+		<members>unfiled$public</members>
+		<name>Report</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ReportType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Role</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SamlSsoConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Scontrol</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Asset</members>
+		<members>AssistantProgress</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Case</members>
+		<members>Contact</members>
+		<members>Contract</members>
+		<members>DandBCompany</members>
+		<members>DuplicateRecordItem</members>
+		<members>DuplicateRecordSet</members>
+		<members>Event</members>
+		<members>FeedItem</members>
+		<members>Idea</members>
+		<members>Lead</members>
+		<members>Macro</members>
+		<members>MacroAction</members>
+		<members>MacroInstruction</members>
+		<members>Opportunity</members>
+		<members>OpportunityLineItem</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>Organization</members>
+		<members>Product2</members>
+		<members>Question</members>
+		<members>Reply</members>
+		<members>Site</members>
+		<members>SocialPersona</members>
+		<members>SocialPost</members>
+		<members>Solution</members>
+		<members>StreamingChannel</members>
+		<members>Task</members>
+		<members>User</members>
+		<members>UserLicense</members>
+		<members>UserProvisioningRequest</members>
+		<name>Workflow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Settings</name>
+	</types>
+	<version>36.0</version>
+</Package>
