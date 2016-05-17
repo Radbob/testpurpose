@@ -14,6 +14,10 @@
         <name>Address__c</name>
     </fields>
     <fields>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person__c</name>
+    </fields>
+    <fields>
         <label><!-- Email --></label>
         <name>Email__c</name>
     </fields>

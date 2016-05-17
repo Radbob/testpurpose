@@ -25,6 +25,10 @@
         <label><!-- Responsibility --></label>
         <name>Responsibility__c</name>
     </fields>
+    <fields>
+        <label><!-- Team Size --></label>
+        <name>Team_Size__c</name>
+    </fields>
     <layouts>
         <layout>Sales Team Layout</layout>
         <sections>

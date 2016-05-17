@@ -86,5 +86,9 @@
         <label><!-- Total Sample Qty --></label>
         <name>Total_Sample_Qty__c</name>
     </fields>
+    <fields>
+        <label><!-- test field --></label>
+        <name>test_field__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
