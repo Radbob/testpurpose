@@ -118,6 +118,14 @@
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
+    <fields>
+        <fullName>doctor_phone__c</fullName>
+        <externalId>false</externalId>
+        <label>doctor phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
     <label>Visit</label>
     <listViews>
         <fullName>All</fullName>

@@ -31,5 +31,9 @@
         <label><!-- Visit Date --></label>
         <name>Visit_Date__c</name>
     </fields>
+    <fields>
+        <label><!-- doctor phone --></label>
+        <name>doctor_phone__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

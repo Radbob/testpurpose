@@ -1323,6 +1323,11 @@
         <field>Visit__c.Sales_Team__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Visit__c.doctor_phone__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <label>Warehouse Developer</label>
     <recordTypeVisibilities>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
